@@ -15,7 +15,9 @@ pr:
       - environment_setup/arm-templates/*
 
 pool:
-  name: "Default"
+
+  vmImage: "ubuntu-latest"
+  # name: "Default"
 
 variables:
   - group: devopsforai-aml-vg
